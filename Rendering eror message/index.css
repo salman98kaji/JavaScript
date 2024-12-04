@@ -1,0 +1,49 @@
+img {
+    width: 500px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    /* Optional hover effect */
+    transition: transform 0.3s ease-in-out;
+}
+img:hover {
+    transform: scale(1.1); /* Slight zoom on hover */
+}
+
+body {
+    background-image: url("/Rendering eror message/image/background\ img.png"); /* Path to your image */
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-repeat: no-repeat; /* Prevents tiling of the image */
+    background-position: center; /* Centers the image */
+}
+
+p {
+    font-size: 50px;
+    font-weight: 400;
+    color: blue;
+    text-align: center;
+}
+
+button {
+    background-color: #007BFF; /* Blue background */
+    color: white; /* White text */
+    padding: 5px 10px; /* Add some padding */
+    border: none; /* Remove border */
+    border-radius: 10px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 50px; /* Adjust font size */
+    transition: background-color 0.3s ease;
+    
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+
+#message {
+    font-size: 50px;
+    color:beige
+
+    
+
+}

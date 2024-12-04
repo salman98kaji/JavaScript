@@ -1,0 +1,34 @@
+body {
+    background-image: url(background.jpg); 
+    background-size: cover; 
+    text-align: center;
+}
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 80px;
+    color: yellow;
+}
+p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    color: aqua;
+}
+#message-el {
+    font-style: italic;
+}
+button {
+    background-color: yellow;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: none;
+    border-radius: 20px;
+    font-size: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 400px;
+    margin-bottom: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+button:hover {
+    background-color: #0056b3;
+}

@@ -1,0 +1,6 @@
+The Document Object Model (DOM) is a programming interface for web documents. It represents the structure of a web page in a tree-like format, making it possible for programming languages like JavaScript to interact with, modify, and manipulate the content, structure, and style of a webpage dynamically.
+The 'document' object provides methods to access and manipulate the HTML elements in your webpage.
+The 'onclick' attribute is an event handler. It specifies that a function should execute when the button is clicked.
+The <script> tag in HTML is used to include JavaScript code in a web page.It can either contain JavaScript directly or link to an external JavaScript file.The src attribute specifies the location of an external JavaScript file 
+The 'innerText' property is used to get or set the text content inside an HTML element. In this case, it is being set to the value of the variable count.
+The rel="stylesheet" attribute in the <link> tag is used to link an external CSS file to an HTML document. The rel="icon" attribute in the <link> tag is used to specify the favicon for a webpage. A favicon is the small icon that appears in the browser's tab, title bar, bookmark list, and other areas where the site is identified visually.

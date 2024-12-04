@@ -1,0 +1,10 @@
+Variables declared with 'let' can be reassigned.It is only accessible within the block ({}) where it is defined.
+Variables declared with 'const' must be assigned a value when declared and cannot be reassigned.Like let, it is block-scoped.
+Use the '.value' property to get the content of the input field.
+The 'innerHTML' property in JavaScript is used to get or set the HTML content of an element. It allows you to dynamically change the content of an element or retrieve its current HTML content. Getter: Retrieves the HTML content of the element. Setter: Replaces the current HTML content of the element with new content.
+The .addEventListener() method adds an event handler to an element, allowing multiple handlers for the same event without overwriting existing ones. 
+The .onclick property assigns a single click event handler to an element, overwriting any previously assigned handler. It is simple to use but lacks the flexibility and advanced options provided by .addEventListener().
+The target='_blank' attribute in an HTML <a> tag specifies that the linked page should open in a new tab or window when the link is clicked.
+localStorage.setItem()= is used to store data in the browser's localStorage in the form of key-value pairs. Both the key and value must be strings.
+The JSON.parse() method in JavaScript is used to convert a JSON-formatted string into a JavaScript object or array. This is necessary because data retrieved from a server or stored as JSON is typically in string format, and JSON.parse() makes it usable in JavaScript.
+The JSON.stringify() method in JavaScript is used to convert a JavaScript object, array, or value into a JSON-formatted string. This is the reverse of JSON.parse().
