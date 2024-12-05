@@ -28,6 +28,12 @@ button {
     cursor: pointer;
 }
 
+#delete-btn {
+    background-color: white;
+    color: #5f9341;
+    border: 1px solid;
+}
+
 ul {
     list-style: none;
     padding-left: 0%;

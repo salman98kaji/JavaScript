@@ -6,5 +6,6 @@ The .addEventListener() method adds an event handler to an element, allowing mul
 The .onclick property assigns a single click event handler to an element, overwriting any previously assigned handler. It is simple to use but lacks the flexibility and advanced options provided by .addEventListener().
 The target='_blank' attribute in an HTML <a> tag specifies that the linked page should open in a new tab or window when the link is clicked.
 localStorage.setItem()= is used to store data in the browser's localStorage in the form of key-value pairs. Both the key and value must be strings.
+localStorage can only store data as strings. When you use localStorage.setItem() to save data, it is converted to a string (typically using JSON.stringify() for objects or arrays). When retrieving that data using localStorage.getItem(), it comes back as a string, regardless of the original data type.
 The JSON.parse() method in JavaScript is used to convert a JSON-formatted string into a JavaScript object or array. This is necessary because data retrieved from a server or stored as JSON is typically in string format, and JSON.parse() makes it usable in JavaScript.
 The JSON.stringify() method in JavaScript is used to convert a JavaScript object, array, or value into a JSON-formatted string. This is the reverse of JSON.parse().
