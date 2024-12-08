@@ -31,3 +31,31 @@ console.log(greet4())
 //Consice syntax, no this binding, Arrow functions cannot be used with the new keyword.
 
 // A CLOSURE is function that has access to its own scope, the scope of its outer function and the golbal scope even after the outer function is finished execution. Closures allow functions to "remember" and access their surrounding state.
+function outerFunction(outerVariable) {
+    return function innerFunction(innerVariable) {
+        console.log(`Outer variable: ${outerVariable}`)
+        console.log(`Inner variable: ${innerVariable}`)
+    }
+}
+const closure = outerFunction("outside")//the outerfunc return the innerfunc but doesn't execute it yet, the returned innerfunc is set to closure variable.
+closure("inside") // now the variable closure is also a function which 'remembers' the value of the outerVariable as "outside" because of the closure mechanism.  
+
+function counter(){
+    let count = 0
+    return function increment(){
+        count++
+        return count
+    }
+}
+const myCOunter = counter()
+console.log(myCOunter())
+console.log(myCOunter())
+console.log(myCOunter())
+
+function createMultiplier(multiplier){
+    return function (number){
+        return number*multiplier
+    }
+}
+const double = createMultiplier(2)
+console.log(double(5))
